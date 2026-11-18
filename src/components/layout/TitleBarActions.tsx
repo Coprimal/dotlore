@@ -40,7 +40,7 @@ function ThemeToggle() {
   );
 }
 
-const GITHUB_URL = "https://github.com/dinhanhthi/dotlore";
+const GITHUB_URL = "https://github.com/Coprimal/dotlore";
 const RELEASES_URL = `${GITHUB_URL}/releases`;
 
 /** lucide-react 1.x ships no brand icons, so the GitHub mark is drawn here. */

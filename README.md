@@ -3,11 +3,11 @@
   <h1>Dotlore</h1>
   <p>Sync your AI stuff and keep it away from your main codebase.</p>
   <p>
-    <a href="https://github.com/dinhanhthi/dotlore/releases/latest/download/Dotlore-universal.dmg">Download</a> ·
-    <a href="https://dotlore.dinhanhthi.com">Website</a> ·
+    <a href="https://github.com/Coprimal/dotlore/releases/latest/download/Dotlore-universal.dmg">Download</a> ·
+    <a href="https://dotlore.coprimal.dev">Website</a> ·
     <a href="https://www.youtube.com/watch?v=WACPvu10plc">Intro video</a> ·
-    <a href="https://github.com/dinhanhthi/dotlore">GitHub</a> ·
-    <a href="https://github.com/dinhanhthi/dotlore/releases">Releases</a> ·
+    <a href="https://github.com/Coprimal/dotlore">GitHub</a> ·
+    <a href="https://github.com/Coprimal/dotlore/releases">Releases</a> ·
     <a href="CONTRIBUTING.md">Contributing</a>
   </p>
 </div>
@@ -135,7 +135,7 @@ To build the signed and notarized release bundle without typing any secret (they
 
 ## 🌐 Website
 
-The landing page at [dotlore.dinhanhthi.com](https://dotlore.dinhanhthi.com) is static HTML in [`website/`](website/), deployed on every push to `main`.
+The landing page at [dotlore.coprimal.dev](https://dotlore.coprimal.dev) is static HTML in [`website/`](website/), deployed on every push to `main`.
 
 ## 🤝 Contributing
 
@@ -143,4 +143,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the invariants the engine depends on.
 
 ## 📄 License
 
-[MIT](LICENSE)
+MIT © [Coprimal](https://coprimal.dev). See [LICENSE](LICENSE).

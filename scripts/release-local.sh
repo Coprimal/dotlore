@@ -9,7 +9,7 @@
 # prefix on the scripts/build.sh call, and are never printed.
 set -euo pipefail
 
-repo="dinhanhthi/dotlore"
+repo="Coprimal/dotlore"
 identity="Developer ID Application: Anh-Thi Dinh (86H6CNLN4C)"
 api_key_id="Q76HXMGCWL"
 key_path="$HOME/.appstoreconnect/private_keys/AuthKey_$api_key_id.p8"

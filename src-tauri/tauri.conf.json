@@ -54,7 +54,7 @@
   "plugins": {
     "updater": {
       "endpoints": [
-        "https://github.com/dinhanhthi/dotlore/releases/latest/download/latest.json"
+        "https://github.com/Coprimal/dotlore/releases/latest/download/latest.json"
       ],
       "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDMwMUJDMkM1NDJGMURBNEQKUldSTjJ2RkN4Y0liTUFPY25NMXdMeEZQMERJV1phNXNwOEo4Z3VKMXZmK3dSaTVNdmZlNjlDSi8K"
     }

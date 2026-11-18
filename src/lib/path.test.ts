@@ -15,7 +15,7 @@ describe("middleEllipsis", () => {
 
   it("keeps both ends so the folder name survives", () => {
     const long =
-      "/Users/thi/Library/CloudStorage/GoogleDrive-dinhanhthi@gmail.com/My Drive";
+      "/Users/thi/Library/CloudStorage/GoogleDrive-someone@gmail.com/My Drive";
     const got = middleEllipsis(long, 46);
     expect(got).toHaveLength(46);
     expect(got.startsWith("/Users/thi/Library/")).toBe(true);

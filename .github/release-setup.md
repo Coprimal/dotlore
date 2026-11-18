@@ -14,7 +14,7 @@ How to publish a signed, notarized macOS build of Dotlore from your Mac with
    `src-tauri/Cargo.lock` and the website badge, commits and pushes to `main`.
 2. `pnpm release --expect-version X.Y.Z` then, in order:
    - runs the preflight: `gh` is authenticated, `origin` is
-     `dinhanhthi/dotlore`, `src-tauri/Cargo.toml` is at `X.Y.Z`, `CHANGELOG.md`
+     `Coprimal/dotlore`, `src-tauri/Cargo.toml` is at `X.Y.Z`, `CHANGELOG.md`
      has a non-empty `## vX.Y.Z` section, you are on a clean `main` equal to
      `origin/main`, the tag `vX.Y.Z` exists neither locally nor on `origin`, and
      every one-time setup item below is in place;

@@ -31,8 +31,8 @@ const LOGO_POINTS: f64 = 128.0;
 
 const ABOUT_ID: &str = "about";
 
-const GITHUB: &str = "github.com/dinhanhthi/dotlore";
-const AUTHOR: &str = "Made by Anh-Thi DINH";
+const GITHUB: &str = "github.com/Coprimal/dotlore";
+const AUTHOR: &str = "Made by Coprimal";
 const LICENSE: &str = "MIT License";
 
 fn credits() -> String {
@@ -155,7 +155,8 @@ mod tests {
     fn the_about_panel_names_the_product_its_repo_and_its_license() {
         let text = credits();
         assert_eq!(text, format!("{GITHUB}\n{AUTHOR}"));
-        assert_eq!(AUTHOR, "Made by Anh-Thi DINH");
+        assert_eq!(GITHUB, "github.com/Coprimal/dotlore");
+        assert_eq!(AUTHOR, "Made by Coprimal");
         assert!(!text.contains("Sync your AI stuff"), "{text}");
         assert_eq!(LICENSE, "MIT License");
     }

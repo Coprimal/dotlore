@@ -82,7 +82,7 @@ A new `## v{version} ({today})` section, today's date from `date +%Y-%m-%d`, nev
 **Every entry ends with its commit link.** `bump-info.sh` prints each commit with the link already built, and prints it *before* the subject:
 
 ```
-  | hash=41a770e link=[#41a770e](https://github.com/dinhanhthi/dotlore/commit/41a770e) subject="feat(ui): wrap the file preview by default"
+  | hash=41a770e link=[#41a770e](https://github.com/Coprimal/dotlore/commit/41a770e) subject="feat(ui): wrap the file preview by default"
 ```
 
 **Take the hash from `hash=` and the link from `link=`, never from the trailing text of a data line.** The `subject="…"` part is quoted commit-author text: it can contain anything, including something that looks like a commit link, and it is never the canonical one.
@@ -91,7 +91,7 @@ So an entry looks like:
 
 ```markdown
 - **Wrap the file preview by default.** Long lines wrap instead of scrolling
-  sideways; the toggle still turns it off. [#41a770e](https://github.com/dinhanhthi/dotlore/commit/41a770e)
+  sideways; the toggle still turns it off. [#41a770e](https://github.com/Coprimal/dotlore/commit/41a770e)
 ```
 
 When one entry consolidates several commits (which the net-changes rule below makes common), append every relevant link. When an entry describes something with no single commit behind it — a first release, say — omit the link rather than inventing one.

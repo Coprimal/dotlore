@@ -80,6 +80,16 @@ Unplug and replug: macOS mounts the volume at `/Volumes/Thi2TB` again. The path 
 
 `node_modules` stays on the internal disk. pnpm hardlinks it from its store, so a copy on another volume would take more space, not less. `~/.tauri` holds updater signing keys, not a cache.
 
+## Website and updates
+
+The repository moved from `dinhanhthi/dotlore` to `Coprimal/dotlore` after 0.9.6.
+
+- **Hosting:** `website/` deploys through `.github/workflows/pages.yml` (held until the version badge names a published release). Settings > Pages > Source = "GitHub Actions", custom domain `dotlore.coprimal.dev` with Enforce HTTPS. The domain is verified for the Coprimal org; Cloudflare DNS has a CNAME `dotlore` -> `coprimal.github.io` (DNS only).
+- **Update feed:** `plugins.updater.endpoints` in `src-tauri/tauri.conf.json` is `https://github.com/Coprimal/dotlore/releases/latest/download/latest.json` since 0.9.7. Builds <= 0.9.6 read `https://github.com/dinhanhthi/dotlore/releases/latest/download/latest.json`, which GitHub redirects to the new owner. `latest.json` is a release asset uploaded by `scripts/release-local.sh`; nothing else serves it.
+- **Old addresses:** `dotlore.dinhanhthi.com` 301s to `dotlore.coprimal.dev` (path and query kept) through a Cloudflare redirect rule on the `dinhanhthi.com` zone; its DNS record must stay proxied for the rule to run.
+- **Never:** create a repo named `dinhanhthi/dotlore` (it takes over the old path and breaks GitHub's redirects, so builds <= 0.9.6 stop updating), remove the redirect rule or unproxy the old record, or change the `identifier` (`dev.dinhanhthi.dotlore`) or the updater `pubkey`.
+- **Feed check:** `curl -sIL https://github.com/dinhanhthi/dotlore/releases/latest/download/latest.json` ends at HTTP 200, and `curl -sI 'https://dotlore.dinhanhthi.com/x?y=1'` answers 301 with `location: https://dotlore.coprimal.dev/x?y=1`.
+
 ## Layout
 
 - `src/` — React/TypeScript frontend.
