@@ -236,7 +236,7 @@ block = "\n".join([
     "{i}<!-- dotlore:version -->",
     "{i}<a",
     '{i}  class="version-badge"',
-    '{i}  href="https://github.com/dinhanhthi/dotlore/releases/tag/v{v}"',
+    '{i}  href="https://github.com/Coprimal/dotlore/releases/tag/v{v}"',
     '{i}  target="_blank"',
     '{i}  rel="noopener noreferrer"',
     "{i}>",

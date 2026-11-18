@@ -26,14 +26,14 @@ Windows and Linux are planned; macOS is the current priority.
 
 ## Links
 
-- [Website](https://dotlore.dinhanhthi.com/): landing page
-- [Download for macOS](https://github.com/dinhanhthi/dotlore/releases/latest/download/Dotlore-universal.dmg): universal DMG of the latest release
-- [Source code](https://github.com/dinhanhthi/dotlore): GitHub repository, MIT license
-- [README](https://github.com/dinhanhthi/dotlore/blob/main/README.md): features, how it works, trash, cloud folders, development
-- [Releases and changelog](https://github.com/dinhanhthi/dotlore/releases)
+- [Website](https://dotlore.coprimal.dev/): landing page
+- [Download for macOS](https://github.com/Coprimal/dotlore/releases/latest/download/Dotlore-universal.dmg): universal DMG of the latest release
+- [Source code](https://github.com/Coprimal/dotlore): GitHub repository, MIT license
+- [README](https://github.com/Coprimal/dotlore/blob/main/README.md): features, how it works, trash, cloud folders, development
+- [Releases and changelog](https://github.com/Coprimal/dotlore/releases)
 - [Intro video](https://www.youtube.com/watch?v=WACPvu10plc)
 
 ## Optional
 
-- [Contributing](https://github.com/dinhanhthi/dotlore/blob/main/CONTRIBUTING.md): engine invariants, layout, tests
-- [Privacy](https://dotlore.dinhanhthi.com/privacy.html)
+- [Contributing](https://github.com/Coprimal/dotlore/blob/main/CONTRIBUTING.md): engine invariants, layout, tests
+- [Privacy](https://dotlore.coprimal.dev/privacy.html)
