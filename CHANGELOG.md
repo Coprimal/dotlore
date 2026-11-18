@@ -1,3 +1,9 @@
+## v0.9.7 (2026-11-18)
+
+### Platform
+
+- **Dotlore moved to the Coprimal organization.** The source is now at `github.com/Coprimal/dotlore` and the website at `dotlore.coprimal.dev`; the old addresses redirect there. This version checks for updates at the new repository, and older versions keep receiving updates through GitHub's redirect, so nothing needs to be done. The About panel and the website now name Coprimal as the author. [#48486cbb](https://github.com/Coprimal/dotlore/commit/48486cbb) [#82f6c3e6](https://github.com/Coprimal/dotlore/commit/82f6c3e6)
+
 ## v0.9.6 (2026-11-11)
 
 ### Desktop app
